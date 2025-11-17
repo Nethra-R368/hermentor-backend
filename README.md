@@ -1,7 +1,3 @@
-Here is your **perfect, polished, judge-friendly README.md** —
-short, impressive, professional, and exactly what hackathon judges expect.
-
-Copy–paste it as **README.md** inside your project folder or inside the ZIP.
 
 ---
 
@@ -20,7 +16,6 @@ ARIA is an intelligent mentorship platform designed to support women in STEM thr
 * AI-generated quizzes
 * Inspirational role models
 * Warm, supportive mentor chat
-* Voice-based encouragement
 
 Built with fast, lightweight, real-time AI using **Groq Llama 3.1**.
 
