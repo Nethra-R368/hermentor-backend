@@ -71,37 +71,6 @@ Provides gentle TTS-based voice replies.
 Curates women in STEM to inspire learners.
 
 ---
-
-## 📁 **What’s Inside This ZIP**
-
-Your upload contains the following high-quality documents for judges:
-
-```
-ARIA_Full_Project_Resources/
-│
-├── README.md                  (This file)
-├── Technical_Architecture.pdf
-├── Prompt_Engineering.pdf
-├── Demo_Video_Script.pdf
-├── ROADMAP_SAMPLE.json
-│
-└── screenshots/
-    ├── home_ui.png
-    ├── profile_page.png
-    ├── skill_assessment.png
-    ├── roadmap_generator.png
-    ├── quiz_generator.png
-    ├── role_models.png
-    ├── mentor_chat.png
-    └── voice_reply.png
-```
-
----
-
-## 🧩 **System Architecture**
-
-```
-User → Streamlit Frontend → Flask API → Groq AI → JSON Sanitizer → UI + Firestore
 ```
 
 
