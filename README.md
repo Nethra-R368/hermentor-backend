@@ -1,106 +1,114 @@
+# ARIA — AI Mentor for Women in STEM
+
+ARIA is an intelligent mentorship platform designed to guide and support women in STEM through personalized learning, structured guidance, and warm emotional support.  
+Built using Groq Llama 3.1 for ultra-fast, real-time AI responses.
 
 ---
 
-# 🌸 **ARIA — AI Mentor for Women in STEM**
+## Overview
 
-### *Personalized learning. Emotional support. Real guidance.*
+ARIA acts as a personal AI mentor that helps learners:
 
----
+- Identify strengths and weaknesses  
+- Build the right skills  
+- Follow structured learning paths  
+- Stay motivated with supportive mentoring  
+- Practice through AI-generated quizzes  
+- Find inspiring women role models  
 
-## 🚀 **Overview**
-
-ARIA is an intelligent mentorship platform designed to support women in STEM through:
-
-* Skill assessment
-* Personalized learning roadmaps
-* AI-generated quizzes
-* Inspirational role models
-* Warm, supportive mentor chat
-
-Built with fast, lightweight, real-time AI using **Groq Llama 3.1**.
+The goal: **help women grow confidently in STEM**.
 
 ---
 
-## 🧠 **Why ARIA?**
+## Features
 
-Students are not failing due to *lack of talent* — but due to:
+### 1. Skill Assessment
+Analyzes resume text to extract:
 
-* No guidance
-* No structure
-* No support
+- Strengths  
+- Weaknesses  
+- Missing skills  
+- Roles you qualify for  
+- Career opportunities  
+- Actionable next steps  
+- Recommended courses  
+- Project ideas  
 
-ARIA solves this by becoming a *personal mentor*, helping learners develop confidence, skills, and direction.
+### 2. Learning Roadmap Generator
+Creates a 4-week personalized learning plan with:
+
+- Weekly topics  
+- Hands-on tasks  
+- Helpful resources  
+
+### 3. Smart AI Quiz Generator
+Generates topic-based MCQs with answers.
+
+### 4. Mentor Chat
+A supportive AI mentor persona (“ARIA”) that:
+
+- Encourages  
+- Motivates  
+- Guides  
+- Helps with career or learning questions  
+
+### 5. Mentor Voice Assistant
+Text-to-speech responses using Groq Whisper v3.
+
+### 6. Role Models
+AI-curated list of inspiring women in STEM with bios and achievements.
+
+---
+
+## Tech Stack
+
+### Frontend
+- Streamlit  
+- Custom dark-pink UI theme  
+
+### Backend
+- Flask API  
+- Firebase Firestore (optional)
+
+### AI Engine
+- Groq Llama 3.1 70B  
+- JSON-Safe extraction using regex sanitizer  
+
+### Audio
+- Groq Whisper v3 for TTS  
 
 ---
 
-## 🏗️ **Tech Stack**
+## Why This Project Stands Out
 
-* **Frontend:** Streamlit
-* **Backend:** Flask
-* **AI Engine:** Groq Llama-3.1 70B
-* **Database:** Firebase Firestore
-* **TTS Engine:** Groq Whisper v3
-* **JSON Sanitizer:** Regex-based safe parser
+- Fully working end-to-end AI system  
+- Real-time responses (Groq speed)  
+- Clean separation of backend and frontend  
+- Warm, empathetic mentor personality  
+- Clear, structured AI outputs  
+- Beautiful UI and UX  
+- Blends **technology + empathy**  
+
+ARIA isn’t just a tool —  
+**it’s a mission to support, uplift, and empower women in STEM.**
+
+---
+
+## Demo Video (Script Summary)
+
+The narration covers:
+
+1. The problem  
+2. Why guidance matters  
+3. ARIA’s solution  
+4. Core features  
+5. Technical overview  
+6. Real impact  
 
 ---
 
-## 📦 **Features**
+## Built For
 
-### 1️⃣ Skill Assessment
-
-Extracts strengths, weaknesses, missing skills, roles, opportunities, and next steps from any resume text.
-
-### 2️⃣ Roadmap Generator
-
-Creates a complete 4-week structured learning plan with topics, tasks, and resources.
-
-### 3️⃣ Quiz Generator
-
-Generates multiple-choice questions with answers for any topic.
-
-### 4️⃣ Mentor Chat
-
-ARIA talks like a supportive, big-sister mentor — warm, comforting, motivational.
-
-### 5️⃣ Mentor Voice
-
-Provides gentle TTS-based voice replies.
-
-### 6️⃣ Role Models
-
-Curates women in STEM to inspire learners.
-
----
-```
-
-
-## 🔥 **Why This Project Stands Out**
-
-* Fully working end-to-end AI pipeline
-* Real JSON-structured outputs
-* Clean UI with custom theme
-* Thoughtful mentor persona
-* Emotional + technical AI
-* Demonstrates engineering + design + empathy
-
-This is not just a tool — it's a mission.
-
-
-
-## 🎥 **Demo Video**
-
-The project includes a complete narration script showing:
-
-* Problem
-* Solution
-* Features
-* Technical depth
-* Impact
-
-
-
-## ❤️ **Built For**
-
-Women and young girls stepping into STEM —
-to guide them, inspire them, and help them shine.
+Women stepping into STEM —  
+to help them learn confidently, discover opportunities, and feel supported every step of the way.
 
