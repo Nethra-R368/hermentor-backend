@@ -10,3 +10,4 @@ python-dotenv==1.0.1
 # IMPORTANT FIXES
 streamlit>=1.32.0
 protobuf<4.0.0
+
