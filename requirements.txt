@@ -5,5 +5,8 @@ openai==1.3.7
 firebase-admin==5.3.0
 python-multipart==0.0.9
 requests==2.31.0
-streamlit==0.89.0
 python-dotenv==1.0.1
+
+# IMPORTANT FIXES
+streamlit>=1.32.0
+protobuf<4.0.0
